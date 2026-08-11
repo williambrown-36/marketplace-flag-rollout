@@ -2,7 +2,7 @@
 
 This small TypeScript program creates a boolean marketplace flag, leaves its default value off, and sends 10% of traffic through the new recommendations path.
 
-It uses Infrai as a plain REST service with a single `INFRAI_API_KEY`; the same credential can cover the next infrastructure capability without adding another SDK. The client has one request function, so authorization, response-envelope handling, and 429 backoff stay consistent.
+It uses Infrai as a plain REST service with a single ``INFRAI_API_KEY``; the same credential can cover the next infrastructure capability without adding another SDK. The client has one request function, so authorization, response-envelope handling, and 429 backoff stay consistent.
 
 ## Run it
 
